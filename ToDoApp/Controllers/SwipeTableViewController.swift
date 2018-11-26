@@ -16,6 +16,8 @@ SwipeTableViewCellDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+    navigationController?.navigationBar.largeTitleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        
         tableView.rowHeight = 80.0
         
     }
